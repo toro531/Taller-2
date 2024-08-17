@@ -1,0 +1,135 @@
+1. Información de un Libro 
+Diseña un programa que muestre la siguiente información sobre un libro:
+* Título del libro
+* Autor del libro
+* Precio del libro
+* Año de publicación
+
+SOLUCION ALGORITMO
+
+1. INICIAR
+2. OBTENER TITULO DEL LIBRO, AUTOR DEL LIBRO, PRECIO DEL LIBRO Y AÑO DE PUBLICACION
+3. MOSTRAR LA INFORMACION
+4. FINALIZAR
+
+PROPONER PSEUDOCODIGO
+program mostrarInformacionPersonal
+star
+// Programa para mostrar el titulo del libro, autor, precio del libro y año de publicacion
+// Declaración de variables
+Declare String Title of the book , Author of the book, Price of the book, Year of publication
+
+obtener datos
+Display "Por favor, titulo del libro: "
+Input name
+Display "Ingrese autor del libro : "
+Input address
+Display "Ingrese precio del libro: "
+Input phone
+Display "Ingrese año de publicacion: "
+Input career
+
+// Mostrar información
+Display "titulo del libro ",String Title of the book , ". autor del libro: ",Author of the book , ". precio del libro: ", Price of the book, ". año de publicacion: ", Year of publication
+
+End
+
+
+
+EJERCICIO 2
+
+Un electrodoméstico tiene una potencia de 1500 vatios y se usa durante 3 horas al día. Diseña un 
+programa que calcule el consumo de energía en kilovatios-hora (kWh) al mes, suponiendo que el mes 
+tiene 30 días.
+
+1.Iniciar
+2.Convertir la potencia de vatios a kilovatios.
+3.Calcular el consumo diario en kilovatios-hora (kWh).
+4.Calcular el consumo mensual multiplicando el consumo diario por los días del mes.
+5.Mostrar el consumo mensual en kWh.
+6.Finalizar
+
+Proponer Pseudocodigo
+program calcularConsumoDeEnergiaEnKwhAlMes
+star
+
+// Programa para calcular el consumo de energía en kWh al mes
+// Declaración de variables
+Declare potenciaEnW, horasPorDia, diasPorMes, consumoMensual
+
+// Asignar valores iniciales
+potenciaEnW = 1500
+horasPorDia = 3
+diasPorMes = 30
+
+// Convertir vatios a kilovatios
+potenciaEnkW = potenciaEnW / 1000
+
+// Calcular el consumo mensual en kWh
+consumoMensual = potenciaEnkW * horasPorDia * diasPorMes
+
+// Mostrar el resultado
+Display "El consumo mensual de energía es: ", consumoMensual, " kWh"
+
+End
+
+
+EJERCICIO 3
+
+Programa de Compra y Venta de Equipos Electrónicos
+El mes pasado, Ana compró un equipo electrónico. Aquí están los detalles de la compra:
+* El número de equipos que Ana compró fue de 50.
+* El precio de cada equipo fue de $150.
+* Ana pagó a su proveedor una comisión del 3% sobre el monto total de la compra.
+Dos semanas después, Ana vendió los equipos. Aquí están los detalles de la venta:
+* El número de equipos que Ana vendió fue de 50.
+* El precio de venta de cada equipo fue de $175.
+* Ana pagó a su proveedor una comisión del 3% sobre el monto total de la venta.
+Diseña un programa que muestre la siguiente información:
+* El monto total pagado por la compra de los equipos.
+* El monto de la comisión pagada al proveedor en la compra.
+* El monto total recibido por la venta de los equipos.
+* El monto de la comisión pagada al proveedor en la venta.
+* ¿Ganó Ana dinero o perdió dinero? Muestra la cantidad de ganancia o pérdida después de la 
+venta, considerando todos los costos y comisiones.
+
+Algoritmo
+1. Iniciar
+2. Calcular valor de compra
+3. Calcular Comision
+4. Calcular Valor total de la venta
+5. Calcular Comision de la venta
+6. Calcular Ganancia
+7. Ver Ganancias o perdidas
+8. Finalizar
+
+Pseudocodigo
+program calcularCompraVentaEquipos
+start
+// Programa para calcular y mostrar la información de compra y venta de equipos electrónicos
+// Declaración de variables
+Declare Integer num_equipos_comprados, num_equipos_vendidos
+Declare precio_compra_por_equipo, precio_venta_por_equipo
+Declare comision_compra, comision_venta
+Declare monto_total_compra, monto_total_venta
+Declare comision_total_compra, comision_total_venta
+Declare ganancia_o_perdida
+
+// Obtener datos
+Display "Ingrese el número de equipos comprados: "
+Input num_equipos_comprados
+Display "Ingrese el precio de compra por equipo: "
+Input precio_compra_por_equipo
+Display "Ingrese la tasa de comisión de compra: "
+Input comision_compra
+Display "Ingrese el número de equipos vendidos: "
+Input num_equipos_vendidos
+Display "Ingrese el precio de venta por equipo: "
+Input precio_venta_por_equipo
+Display "Ingrese la tasa de comisión de venta : "
+Input comision_venta
+
+¡HASTA AQUI QUEDÉ NO SE QUE MAS HACER! TENGA UN POCO CLEMENCIA AL CALIFICAR :(
+
+EDUAR JOSE SANCHEZ RUIZ
+IVAN DARIO JULIO DIAZ
